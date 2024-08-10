@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 99, 195);
+    box-sizing: border-box;
+}
+
+div {
+    background-color: white;
+    height: 60%;
+    width: 90%;
+    max-width: 400px; 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto; 
+    position: relative;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h2{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+input, select {
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    color: black;
+    padding: 5px;
+    width: 100%; /* Full width for input and select elements */
+}
+
+label {
+    background-color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(10, 99, 195);
+    height: 40px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Full width for the button */
+    
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+option{
+    background-color: white;
+}
+h4{
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+/* Media Queries for responsive design */
+@media (min-width: 600px) {
+    div {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    div {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    div {
+        width: 30%;
+    }
+}
